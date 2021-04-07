@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav>.logo {
+    background-color: rgba(255, 221, 0, 0.616);
+    border-radius: 5px;
+}
+
+.barra {
+    width: 100%;
+    height: 45px;
+    background-color: #C0E6F6;
+}
+
+.menu>.menu_li>.menu_items {
+    color: rgb(195, 190, 95);
+    text-transform: uppercase;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/*-----------------------*/
+
+
+/*inicio*/
+
+#inicio,
+#inicio img {
+    height: 756px;
+}
+
+#inicio>.carousel_slide>.carousel-control-next>.carousel-control-next-icon,
+#inicio>.carousel_slide>.carousel-control-prev>.carousel-control-prev-icon,
+#productos>.carousel_slide>.carousel-control-next>.carousel-control-next-icon,
+#productos>.carousel_slide>.carousel-control-prev>.carousel-control-prev-icon {
+    height: 300px;
+    width: 35%;
+}
+
+
+/*nosotros*/
+
+#nosostros {
+    background-color: rgba(25, 115, 184, 0.87);
+    height: 630px;
+}
+
+#nosostros>h2,
+#productos>h2,
+#equipo>h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #012B60;
+}
+
+#nosostros>h2 {
+    padding-top: 50px;
+}
+
+#nosostros>.row {
+    margin-top: 45px;
+}
+
+.row>.texto>p {
+    font-family: 'Lucida Sans';
+    text-align: center;
+    font-size: 25px;
+    color: #ffff;
+    margin-top: 45px;
+}
+
+#nosostros>.row>.imagen>img {
+    height: 350px;
+    padding-left: 60px;
+}
+
+
+/*productos*/
+
+#productos {
+    height: 700px;
+    padding-bottom: 50px;
+}
+
+#productos>.carousel_slide>.hola {
+    width: 80%;
+    margin: 0% auto;
+}
+
+#productos>.carousel_slide>.carousel-control-next>.carousel-control-next-icon {
+    border-radius: 0px 15px 15px 0px;
+}
+
+#productos>.carousel_slide>.carousel-control-prev>.carousel-control-prev-icon {
+    border-radius: 15px 0px 0px 15px;
+}
+
+#productos>.carousel_slide>.carousel-control-next>.carousel-control-next-icon,
+#productos>.carousel_slide>.carousel-control-prev>.carousel-control-prev-icon {
+    height: 140px;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#productos img {
+    height: 556px;
+}
+
+
+/*equipo*/
+
+#equipo {
+    background-color: #17C0EB;
+    height: 630px;
+}
+
+#equipo p {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #000;
+}
+
+#equipo>.imagenes>.row {
+    margin: 5px;
+}
+
+#equipo>.imagenes>.row>.img {
+    position: relative;
+}
+
+#equipo>.imagenes>.row>.img>img {
+    width: 100%;
+    height: 100%;
+}
+
+#equipo>.imagenes>.row>.img>.fondo {
+    position: absolute;
+    width: 92%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    background-color: rgb(23, 192, 235, 0.62);
+}
+
+#equipo>.imagenes>.row {
+    margin-top: 65px;
+}
+
+#equipo>.imagenes>.row>.img>.fondo>h2 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+
+.contact-form-container{
+    display: flex;
+    margin:50px 200px;
+    
+}
+
+.contact-title{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.contact-form{
+    padding: 40px 100px;
+    background-color: #E1F2FF;
+    width: 450px;
+    height: 550px;
+    border-radius: 22%;
+}
+
+
+.form-button{
+    margin-top: 25px;
+    margin-left: 180px;
+    width: 80px;
+    height: 40px;
+    background-color: #FFFDDA;
+    border: none;
+}
+
+footer{
+    background-color: #012B60;
+    width: 100%;
+    height: 350px;
+}
+
+.location-container{
+    align-self: center;
+    
+}
+
+.image-location{
+    width: 300px;
+    margin: 0px 0px 70px 90px;
+    height: 300px;
+    border-radius: 50%;
+    border:3px solid #FFF876;
+    background-color: #eee;
+}
+
+.location-container > .location{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 320px;
+    border: 2px solid #bbb;
+    padding: 10px;
+}
+
+.location i{
+    padding: 5px;
+    font-size: 30px;
+}
+
+.location-icon{
+    margin-right: 16px;
+    margin-top: 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #bbb;
+    padding: 5px 3px;
+}
+
+
+.location-container>.location>.adress{
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+    line-height: 5px;
+    margin-top: 12px;
+}
+
+.contact-form-container > .contact-form > input{
+    border: 1.5px solid #aaa;
+    width: 260px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.contact-form-container > .contact-form > label{
+    margin-top: 10px;
+}
+
+#comentario{
+    height: 100px;
+}
+
+@media only screen and (max-width:500px) {
+    .contact-form-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px;
+    }
+}
