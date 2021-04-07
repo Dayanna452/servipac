@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -182,15 +183,17 @@ nav>.logo {
 .contact-form{
     padding: 40px 100px;
     background-color: #E1F2FF;
-    width: 450px;
-    height: 550px;
+    /**width: 450px;
+    height: 550px;**/
     border-radius: 22%;
 }
 
+.form-button-container{
+  
+}
 
 .form-button{
-    margin-top: 25px;
-    margin-left: 180px;
+    margin-top: 22px;
     width: 80px;
     height: 40px;
     background-color: #FFFDDA;
@@ -203,27 +206,26 @@ footer{
     height: 350px;
 }
 
-.location-container{
-    align-self: center;
-    
-}
 
 .image-location{
     width: 300px;
-    margin: 0px 0px 70px 90px;
     height: 300px;
     border-radius: 50%;
     border:3px solid #FFF876;
     background-color: #eee;
+    margin:auto;
 }
 
 .location-container > .location{
     display: flex;
-    margin-left: 100px;
-    margin-top: 30px;
     width: 320px;
     border: 2px solid #bbb;
-    padding: 10px;
+}
+
+.location{
+    margin: auto;
+    margin-top: 35px;
+    padding: 5px;
 }
 
 .location i{
@@ -264,10 +266,3 @@ footer{
     height: 100px;
 }
 
-@media only screen and (max-width:500px) {
-    .contact-form-container{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 50px;
-    }
-}

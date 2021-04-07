@@ -1,0 +1,12 @@
+estilos para el de abajo 
+botones
+background-color: red;
+height: 300px;
+width: 34%;
+
+
+#inicio>.carousel_slide>.hola {
+
+    width: 80%;
+    margin: 0% auto;
+}
