@@ -5,7 +5,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    margin: 0;
     background: #1973B8;
     padding-top: 25px;
 }
@@ -13,7 +13,7 @@ body {
 
 .sticky-lg-top{
     top: -10px;
-    opacity: 0.7s;
+    opacity: .9;
 }
 
 
@@ -159,28 +159,13 @@ body {
 }
 
 
-.contact-form-container{
-    display: flex;
-    margin:50px 200px;
-    
+
+.contacto-form{
+    padding: 20px 40px;
+    background-color:#E1F2FF;
+    border-radius: 10%;
+    margin:20px 10px ;
 }
-
-.contact-title{
-    margin-top: 50px;
-    text-align: center;
-}
-
-
-
-.contact-form{
-    padding: 40px 100px;
-    background-color: #E1F2FF;
-    /**width: 450px;
-    height: 550px;**/
-    border-radius: 22%;
-}
-
-
 
 .form-button{
     margin-top: 22px;
@@ -196,25 +181,21 @@ footer{
     height: 350px;
 }
 
+.location-container{
+    width: 360px;
+    margin:0px auto;
+}
 
 .image-location{
     width: 300px;
     height: 300px;
-    border-radius: 50%;
     border:3px solid #FFF876;
     background-color: #eee;
-    margin:auto;
 }
 
-.location-container > .location{
-    display: flex;
-    width: 320px;
-    border: 2px solid #bbb;
-}
 
 .location{
     margin: auto;
-    margin-top: 35px;
     padding: 5px;
 }
 
@@ -233,24 +214,6 @@ footer{
     padding: 5px 3px;
 }
 
-
-.location-container>.location>.adress{
-    font-family: 'Lucida Sans';
-    font-size: 12px;
-    line-height: 5px;
-    margin-top: 12px;
-}
-
-.contact-form-container > .contact-form > input{
-    border: 1.5px solid #aaa;
-    width: 260px;
-    height: 25px;
-    border-radius: 5px;
-}
-
-.contact-form-container > .contact-form > label{
-    margin-top: 10px;
-}
 
 #comentario{
     height: 100px;
