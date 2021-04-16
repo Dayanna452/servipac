@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barra-inicio {
+    height: 4rem;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav {
+    margin: 0;
+    box-sizing: border-box;
+    position: sticky;
+    color:#bbb;
+    top: 0px;
+    z-index: 100;
+}
+
+ul .nav-item {
+    font-size: 2rem;
+}
+
+b {
+    font-size: 1.2rem;
+}
+
+div>.collapse {
+    margin-left: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fas, .far {
+    margin-left: 1.2rem;
+    margin-right: 1.4rem;
+    font-size: 2.8rem;
+}
+
+.navbar-toggler {
+    font-size: 2.5rem;
+}

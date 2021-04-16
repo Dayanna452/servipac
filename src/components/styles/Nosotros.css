@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-nosotros>.container-xl p {
+  font-size: 1.8rem;
+  margin: 2rem 2rem;
+  color: #fff;
+}
+
+.section-nosotros {
+  background-color: #1973B8;
+  padding: 1rem 0;
+}
+
+.section-nosotros>.container-xl {
+  border: .4rem solid transparent;
+  padding: 2rem auto;
+}
+
+.section-nosotros>.container-xl>h1 {
+  margin: 2rem 1rem;
+  font-size: 3rem;
+}
